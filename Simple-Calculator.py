@@ -9,8 +9,11 @@ def divide(num1, num2):
     return num1 / num2
 
 # Print intro or greetings
+print("SIMPLE CALCULATOR")
 
 # Ask how many numbers are to be calculated
+print("**Note that this calculator can only except at least 3 inputs.\n")
+num = input("How many numbers will you input?: ")
 
 # For 2 inputs
 
