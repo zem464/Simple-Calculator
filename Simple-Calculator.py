@@ -123,19 +123,19 @@ elif num == '3':
             
             # If subtraction and addition
             elif operations == '9':
-                print(inp_num1, "-", inp_num2, "+", inp_num3, "=", subtraction(inp_num1, inp_num2) + inp_num3)
+                print(inp_num1, "-", inp_num2, "+", inp_num3, "=", subtract(inp_num1, inp_num2) + inp_num3)
             
             # If both subtraction
             elif operations == '10':
-                print(inp_num1, "-", inp_num2, "-", inp_num3, "=", subtraction(inp_num1, inp_num2) - inp_num3)
+                print(inp_num1, "-", inp_num2, "-", inp_num3, "=", subtract(inp_num1, inp_num2) - inp_num3)
 
             # If subtraction and multiplication
             elif operations == '11':
-                print(inp_num1, "-", inp_num2, "*", inp_num3, "=", subtraction(inp_num1, inp_num2) * inp_num3)
+                print(inp_num1, "-", inp_num2, "*", inp_num3, "=", subtract(inp_num1, inp_num2) * inp_num3)
 
             # If subtraction and division
             elif operations == '12':
-                print(inp_num1, "-", inp_num2, "/", inp_num3, "=", subtraction(inp_num1, inp_num2) / inp_num3)
+                print(inp_num1, "-", inp_num2, "/", inp_num3, "=", subtract(inp_num1, inp_num2) / inp_num3)
             
             # If multiplication and addition
             elif operations == '13':
