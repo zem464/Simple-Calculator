@@ -91,44 +91,51 @@ elif num == '3':
     while True:
         # Take the operations to be used by the users
         operations = input("\nOperation: ")
-        
+
         # Check the input
+        if operations in ('5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20'):
+            # use try-except handling
+            try:
+                inp_num1 = float(input("Enter number: "))
+                inp_num2 = float(input("Enter another number: "))
+                inp_num3 = float(input("Enter another number: "))
+            except ValueError:
+                print("Invalid input. Please enter numbers.")
+                continue
+            
+            # If both addition
 
-        # use try-except handling
+            # If addition and subtraction
 
-        # If both addition
+            # If addition and multiplication
 
-        # If addition and subtraction
+            # If addition and division
 
-        # If addition and multiplication
+            # If subtraction and addition
+                        
+            # If both subtraction
 
-        # If addition and division
+            # If subtraction and multiplication
+                        
+            # If multiplication and addition
+                        
+            # If multiplication and subtraction
 
-        # If subtraction and addition
-                    
-        # If both subtraction
+            # If both multiplication
 
-        # If subtraction and multiplication
-                    
-        # If multiplication and addition
-                    
-        # If multiplication and subtraction
+            # If multiplication and division
+                        
+            # If division and addition
+                        
+            # If division and subtraction
 
-        # If both multiplication
+            # If division and multiplication
+                        
+            # If both division
 
-        # If multiplication and division
-                    
-        # If division and addition
-                    
-        # If division and subtraction
+            # Then ask for more calculations
 
-        # If division and multiplication
-                    
-        # If both division
-
-        # Then ask for more calculations
-
-        # Break if no other calculations
+            # Break if no other calculations
 
         # If input is invalid
 
