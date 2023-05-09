@@ -9,16 +9,18 @@ def divide(num1, num2):
     return num1 / num2
 
 # Print intro or greetings
-print("SIMPLE CALCULATOR")
+print("==========================================================================")
+print("|\033[37;40m                          " + "\033[35;40m\033[1mSIMPLE CALCULATOR\033[0m" + "\033[37;40m                             \033[37m|")
+print("==========================================================================" + "\n")
 
 # Ask how many numbers are to be calculated
-print("**Note that this calculator can only except at least 3 inputs.\n")
-num = input("How many numbers will you input?: ")
+print("\033[33m**Note that this calculator can only except at least 3 inputs.\n")
+num = input("\033[34m\033[1mHow many numbers will you input?: \033[37m\033[0m")
 
 # For 2 inputs
 if num == '2':
     # Show operations
-    print("\nIn selecting operations, pick a number.")
+    print("\n\033[33;40m\033[1mIn selecting operations, pick a number.\033[0m")
     print("1. +")
     print("2. -")
     print("3. *")
@@ -27,16 +29,16 @@ if num == '2':
     # Use while loop
     while True:
         # Take the operations to be used by the users
-        operations = input("\nOperation: ")
+        operations = input("\n\033[34m\033[1mOperation: \033[37m\033[0m")
         
         # Check the input 
         if operations in ('1', '2', '3', '4'):
             # Use try-except handling
             try:
-                inp_num1 = float(input("Enter number: "))
-                inp_num2 = float(input("Enter another number: "))
+                inp_num1 = float(input("\033[34m\033[1mEnter number: \033[37m\033[0m"))
+                inp_num2 = float(input("\033[34m\033[1mEnter another number: \033[37m\033[0m"))
             except ValueError:
-                print("Invalid input. Please enter numbers.")
+                print("\033[31m\033[1mInvalid input. Please enter numbers.")
                 continue
 
             # If addition
@@ -56,10 +58,10 @@ if num == '2':
                 print(inp_num1, "/", inp_num2, "=", divide(inp_num1, inp_num2))
             
             # Then ask for more calculations
-            again = input("\nMore calculations? Put 'n' if none: ")
+            again = input("\n\033[32m\033[1mMore calculations? Put 'n' if none: \033[37m\033[0m")
             # Continue if there are more calculations
             if again == 'n':
-                print("\nThank you!")
+                print("\n\033[35m\033[1mThank you!")
                 break
 
         # If input is invalid
@@ -69,7 +71,7 @@ if num == '2':
 # For 3 inputs
 elif num == '3':
     # Show operations
-    print("\nIn selecting operations, pick a number.")
+    print("\n\033[33;40m\033[1mIn selecting operations, pick a number.\033[0m")
     print("5. +, +")
     print("6. +, -")
     print("7. +, *")
@@ -90,17 +92,17 @@ elif num == '3':
     # Use while loop
     while True:
         # Take the operations to be used by the users
-        operations = input("\nOperation: ")
+        operations = input("\n\033[34m\033[1mOperation: \033[37m\033[0m")
 
         # Check the input
         if operations in ('5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20'):
             # use try-except handling
             try:
-                inp_num1 = float(input("Enter number: "))
-                inp_num2 = float(input("Enter another number: "))
-                inp_num3 = float(input("Enter another number: "))
+                inp_num1 = float(input("\033[34m\033[1mEnter number: \033[37m\033[0m"))
+                inp_num2 = float(input("\033[34m\033[1mEnter another number: \033[37m\033[0m"))
+                inp_num3 = float(input("\033[34m\033[1mEnter another number: \033[37m\033[0m"))
             except ValueError:
-                print("Invalid input. Please enter numbers.")
+                print("\033[31m\033[1mInvalid input. Please enter numbers.")
                 continue
 
             # If both addition
@@ -168,16 +170,16 @@ elif num == '3':
                 print(inp_num1, "/", inp_num2, "/", inp_num3, "=", divide(inp_num1, inp_num2) / inp_num3)
 
             # Then ask for more calculations
-            again = input("More calculations? Put 'n' if none: ")
+            again = input("\n\033[32m\033[1mMore calculations? Put 'n' if none: \033[37m\033[0m")
             # Break if no other calculations
             if again == 'n':
-                print("Thank you!")
+                print("\n\033[35m\033[1mThank you!")
                 break
 
         # If input is invalid
         else:
-            print("Invalid input.")
+            print("\033[31m\033[1mInvalid input.")
 
 # Give choices, if input is not in the choices
 else:
-    print("Please enter 2 or 3 only.")
+    print("\033[31m\033[1mPlease enter 2 or 3 only.")
