@@ -88,47 +88,48 @@ elif num == '3':
     print("20. /, /")
 
     # Use while loop
+    while True:
+        # Take the operations to be used by the users
+        operations = input("\nOperation: ")
+        
+        # Check the input
 
-    # Take the operations to be used by the users
+        # use try-except handling
 
-    # Check the input
+        # If both addition
 
-    # use try-except handling
+        # If addition and subtraction
 
-    # If both addition
+        # If addition and multiplication
 
-    # If addition and subtraction
+        # If addition and division
 
-    # If addition and multiplication
+        # If subtraction and addition
+                    
+        # If both subtraction
 
-    # If addition and division
+        # If subtraction and multiplication
+                    
+        # If multiplication and addition
+                    
+        # If multiplication and subtraction
 
-    # If subtraction and addition
-                
-    # If both subtraction
+        # If both multiplication
 
-    # If subtraction and multiplication
-                
-    # If multiplication and addition
-                
-    # If multiplication and subtraction
+        # If multiplication and division
+                    
+        # If division and addition
+                    
+        # If division and subtraction
 
-    # If both multiplication
+        # If division and multiplication
+                    
+        # If both division
 
-    # If multiplication and division
-                
-    # If division and addition
-                
-    # If division and subtraction
+        # Then ask for more calculations
 
-    # If division and multiplication
-                
-    # If both division
+        # Break if no other calculations
 
-    # Then ask for more calculations
-
-    # Break if no other calculations
-
-    # If input is invalid
+        # If input is invalid
 
 # Give choices, if input is not in the choices
