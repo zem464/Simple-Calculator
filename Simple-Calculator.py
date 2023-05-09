@@ -30,20 +30,26 @@ if num == '2':
         operations = input("\nOperation: ")
         
         # Check the input 
+        if operations in ('1', '2', '3', '4'):
+            # Use try-except handling
+            try:
+                inp_num1 = float(input("Enter number: "))
+                inp_num2 = float(input("Enter another number: "))
+            except ValueError:
+                print("Invalid input. Please enter numbers.")
+                continue
 
-        # Use try-except handling
+            # If addition
 
-        # If addition
+            # If subtraction
 
-        # If subtraction
+            # If multiplication
 
-        # If multiplication
+            # If division
 
-        # If division
+            # Then ask for more calculations
 
-        # Then ask for more calculations
-
-        # Continue if there are more calculations
+            # Continue if there are more calculations
 
         # If input is invalid
 
