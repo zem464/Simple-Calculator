@@ -63,6 +63,8 @@ if num == '2':
                 break
 
         # If input is invalid
+        else:
+            print("Invalid input.")
 
 # For 3 inputs
 
