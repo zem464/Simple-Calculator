@@ -173,7 +173,9 @@ elif num == '3':
             if again == 'n':
                 print("Thank you!")
                 break
-            
+
         # If input is invalid
+        else:
+            print("Invalid input.")
 
 # Give choices, if input is not in the choices
