@@ -40,13 +40,21 @@ if num == '2':
                 continue
 
             # If addition
-
+            if operations == '1':
+                print(inp_num1, "+", inp_num2, "=", add(inp_num1, inp_num2))
+            
             # If subtraction
+            elif operations == '2':
+                print(inp_num1, "-", inp_num2, "=", subtract(inp_num1, inp_num2))
 
             # If multiplication
+            elif operations == '3':
+                print(inp_num1, "*", inp_num2, "=", multiply(inp_num1, inp_num2))
 
             # If division
-
+            elif operations == '4':
+                print(inp_num1, "/", inp_num2, "=", divide(inp_num1, inp_num2))
+            
             # Then ask for more calculations
 
             # Continue if there are more calculations
