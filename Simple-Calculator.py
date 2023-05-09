@@ -56,8 +56,11 @@ if num == '2':
                 print(inp_num1, "/", inp_num2, "=", divide(inp_num1, inp_num2))
             
             # Then ask for more calculations
-
+            again = input("\nMore calculations? Put 'n' if none: ")
             # Continue if there are more calculations
+            if again == 'n':
+                print("\nThank you!")
+                break
 
         # If input is invalid
 
