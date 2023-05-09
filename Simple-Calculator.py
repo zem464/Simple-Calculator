@@ -168,9 +168,12 @@ elif num == '3':
                 print(inp_num1, "/", inp_num2, "/", inp_num3, "=", divide(inp_num1, inp_num2) / inp_num3)
 
             # Then ask for more calculations
-
+            again = input("More calculations? Put 'n' if none: ")
             # Break if no other calculations
-
+            if again == 'n':
+                print("Thank you!")
+                break
+            
         # If input is invalid
 
 # Give choices, if input is not in the choices
