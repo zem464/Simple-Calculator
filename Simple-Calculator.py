@@ -102,36 +102,70 @@ elif num == '3':
             except ValueError:
                 print("Invalid input. Please enter numbers.")
                 continue
-            
-            # If both addition
 
+            # If both addition
+            if operations == '5':
+                print(inp_num1, "+", inp_num2, "+", inp_num3, "=", add(inp_num1, inp_num2) + inp_num3)
+            
             # If addition and subtraction
+            elif operations == '6':
+                print(inp_num1, "+", inp_num2, "-", inp_num3, "=", add(inp_num1, inp_num2) - inp_num3)
 
             # If addition and multiplication
+            elif operations == '7':
+                print(inp_num1, "+", inp_num2, "*", inp_num3, "=", add(inp_num1, inp_num2) * inp_num3)
 
             # If addition and division
-
+            elif operations == '8':
+                print(inp_num1, "+", inp_num2, "/", inp_num3, "=", add(inp_num1, inp_num2) / inp_num3)
+            
             # If subtraction and addition
-                        
+            elif operations == '9':
+                print(inp_num1, "-", inp_num2, "+", inp_num3, "=", subtraction(inp_num1, inp_num2) + inp_num3)
+            
             # If both subtraction
+            elif operations == '10':
+                print(inp_num1, "-", inp_num2, "-", inp_num3, "=", subtraction(inp_num1, inp_num2) - inp_num3)
 
             # If subtraction and multiplication
-                        
+            elif operations == '11':
+                print(inp_num1, "-", inp_num2, "*", inp_num3, "=", subtraction(inp_num1, inp_num2) * inp_num3)
+
+            # If subtraction and division
+            elif operations == '12':
+                print(inp_num1, "-", inp_num2, "/", inp_num3, "=", subtraction(inp_num1, inp_num2) / inp_num3)
+            
             # If multiplication and addition
-                        
+            elif operations == '13':
+                print(inp_num1, "*", inp_num2, "+", inp_num3, "=", multiply(inp_num1, inp_num2) + inp_num3)
+            
             # If multiplication and subtraction
+            elif operations == '14':
+                print(inp_num1, "*", inp_num2, "-", inp_num3, "=", multiply(inp_num1, inp_num2) - inp_num3)
 
             # If both multiplication
+            elif operations == '15':
+                print(inp_num1, "*", inp_num2, "*", inp_num3, "=", multiply(inp_num1, inp_num2) * inp_num3)
 
             # If multiplication and division
-                        
+            elif operations == '16':
+                print(inp_num1, "*", inp_num2, "/", inp_num3, "=", multiply(inp_num1, inp_num2) / inp_num3)
+            
             # If division and addition
-                        
+            elif operations == '17':
+                print(inp_num1, "/", inp_num2, "+", inp_num3, "=", divide(inp_num1, inp_num2) + inp_num3)
+            
             # If division and subtraction
+            elif operations == '18':
+                print(inp_num1, "/", inp_num2, "-", inp_num3, "=", divide(inp_num1, inp_num2) - inp_num3)
 
             # If division and multiplication
-                        
+            elif operations == '19':
+                print(inp_num1, "/", inp_num2, "*", inp_num3, "=", divide(inp_num1, inp_num2) * inp_num3)
+
             # If both division
+            elif operations == '20':
+                print(inp_num1, "/", inp_num2, "/", inp_num3, "=", divide(inp_num1, inp_num2) / inp_num3)
 
             # Then ask for more calculations
 
