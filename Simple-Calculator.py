@@ -67,51 +67,68 @@ if num == '2':
             print("Invalid input.")
 
 # For 3 inputs
+elif num == '3':
+    # Show operations
+    print("\nIn selecting operations, pick a number.")
+    print("5. +, +")
+    print("6. +, -")
+    print("7. +, *")
+    print("8. +, /")
+    print("9. -, +")
+    print("10. -, -")
+    print("11. -, *")
+    print("12. -, /")
+    print("13. *, +")
+    print("14. *, -")
+    print("15. *, *")
+    print("16. *, /")
+    print("17. /, +")
+    print("18. /, -")
+    print("19. /, *")
+    print("20. /, /")
 
-# Show operations
+    # Use while loop
 
-# Use while loop
+    # Take the operations to be used by the users
 
-# Take the operations to be used by the users
+    # Check the input
 
-# Check the input
+    # use try-except handling
 
-# use try-except handling
+    # If both addition
 
-# If both addition
+    # If addition and subtraction
 
-# If addition and subtraction
+    # If addition and multiplication
 
-# If addition and multiplication
+    # If addition and division
 
-# If addition and division
+    # If subtraction and addition
+                
+    # If both subtraction
 
-# If subtraction and addition
-            
-# If both subtraction
+    # If subtraction and multiplication
+                
+    # If multiplication and addition
+                
+    # If multiplication and subtraction
 
-# If subtraction and multiplication
-            
-# If multiplication and addition
-            
-# If multiplication and subtraction
+    # If both multiplication
 
-# If both multiplication
+    # If multiplication and division
+                
+    # If division and addition
+                
+    # If division and subtraction
 
-# If multiplication and division
-            
-# If division and addition
-            
-# If division and subtraction
+    # If division and multiplication
+                
+    # If both division
 
-# If division and multiplication
-            
-# If both division
+    # Then ask for more calculations
 
-# Then ask for more calculations
+    # Break if no other calculations
 
-# Break if no other calculations
-
-# If input is invalid
+    # If input is invalid
 
 # Give choices, if input is not in the choices
