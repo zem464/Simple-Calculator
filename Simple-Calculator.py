@@ -16,30 +16,35 @@ print("**Note that this calculator can only except at least 3 inputs.\n")
 num = input("How many numbers will you input?: ")
 
 # For 2 inputs
+if num == '2':
+    # Show operations
+    print("\nIn selecting operations, pick a number.")
+    print("1. +")
+    print("2. -")
+    print("3. *")
+    print("4. /")
+        
+    # Use while loop
 
-# Show operations
+    # Take the operations to be used by the users
 
-# Use while loop
+    # Check the input 
 
-# Take the operations to be used by the users
+    # Use try-except handling
 
-# Check the input 
+    # If addition
 
-# Use try-except handling
+    # If subtraction
 
-# If addition
+    # If multiplication
 
-# If subtraction
+    # If division
 
-# If multiplication
+    # Then ask for more calculations
 
-# If division
+    # Continue if there are more calculations
 
-# Then ask for more calculations
-
-# Continue if there are more calculations
-
-# If input is invalid
+    # If input is invalid
 
 # For 3 inputs
 
