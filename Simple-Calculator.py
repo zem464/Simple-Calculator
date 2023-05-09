@@ -179,3 +179,5 @@ elif num == '3':
             print("Invalid input.")
 
 # Give choices, if input is not in the choices
+else:
+    print("Please enter 2 or 3 only.")
