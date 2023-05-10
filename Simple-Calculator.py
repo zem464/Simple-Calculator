@@ -55,7 +55,10 @@ if num == '2':
 
             # If division
             elif operations == '4':
-                print(inp_num1, "/", inp_num2, "=", divide(inp_num1, inp_num2))
+                try:
+                    print(inp_num1, "/", inp_num2, "=", divide(inp_num1, inp_num2))
+                except ZeroDivisionError:
+                    print("\033[31m\033[1mCannot divide by zero")
             
             # Then ask for more calculations
             again = input("\n\033[32m\033[1mMore calculations? Put 'n' if none: \033[37m\033[0m")
@@ -119,7 +122,10 @@ elif num == '3':
 
             # If addition and division
             elif operations == '8':
-                print(inp_num1, "+", inp_num2, "/", inp_num3, "=", add(inp_num1, inp_num2) / inp_num3)
+                try:
+                    print(inp_num1, "+", inp_num2, "/", inp_num3, "=", add(inp_num1, inp_num2) / inp_num3)
+                except ZeroDivisionError:
+                    print("\033[31m\033[1mCannot divide by zero")
             
             # If subtraction and addition
             elif operations == '9':
@@ -135,7 +141,10 @@ elif num == '3':
 
             # If subtraction and division
             elif operations == '12':
-                print(inp_num1, "-", inp_num2, "/", inp_num3, "=", subtract(inp_num1, inp_num2) / inp_num3)
+                try:
+                    print(inp_num1, "-", inp_num2, "/", inp_num3, "=", subtract(inp_num1, inp_num2) / inp_num3)
+                except ZeroDivisionError:
+                    print("\033[31m\033[1mCannot divide by zero")
             
             # If multiplication and addition
             elif operations == '13':
@@ -151,23 +160,38 @@ elif num == '3':
 
             # If multiplication and division
             elif operations == '16':
-                print(inp_num1, "*", inp_num2, "/", inp_num3, "=", multiply(inp_num1, inp_num2) / inp_num3)
+                try:
+                    print(inp_num1, "*", inp_num2, "/", inp_num3, "=", multiply(inp_num1, inp_num2) / inp_num3)
+                except ZeroDivisionError:
+                    print("\033[31m\033[1mCannot divide by zero")
             
             # If division and addition
             elif operations == '17':
-                print(inp_num1, "/", inp_num2, "+", inp_num3, "=", divide(inp_num1, inp_num2) + inp_num3)
+                try:
+                    print(inp_num1, "/", inp_num2, "+", inp_num3, "=", divide(inp_num1, inp_num2) + inp_num3)
+                except ZeroDivisionError:
+                    print("\033[31m\033[1mCannot divide by zero")
             
             # If division and subtraction
             elif operations == '18':
-                print(inp_num1, "/", inp_num2, "-", inp_num3, "=", divide(inp_num1, inp_num2) - inp_num3)
+                try:
+                    print(inp_num1, "/", inp_num2, "-", inp_num3, "=", divide(inp_num1, inp_num2) - inp_num3)
+                except ZeroDivisionError:
+                    print("\033[31m\033[1mCannot divide by zero")
 
             # If division and multiplication
             elif operations == '19':
-                print(inp_num1, "/", inp_num2, "*", inp_num3, "=", divide(inp_num1, inp_num2) * inp_num3)
+                try:
+                    print(inp_num1, "/", inp_num2, "*", inp_num3, "=", divide(inp_num1, inp_num2) * inp_num3)
+                except ZeroDivisionError:
+                    print("\033[31m\033[1mCannot divide by zero")
 
             # If both division
             elif operations == '20':
-                print(inp_num1, "/", inp_num2, "/", inp_num3, "=", divide(inp_num1, inp_num2) / inp_num3)
+                try:
+                    print(inp_num1, "/", inp_num2, "/", inp_num3, "=", divide(inp_num1, inp_num2) / inp_num3)
+                except ZeroDivisionError:
+                    print("\033[31m\033[1mCannot divide by zero")
 
             # Then ask for more calculations
             again = input("\n\033[32m\033[1mMore calculations? Put 'n' if none: \033[37m\033[0m")
