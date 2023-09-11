@@ -52,6 +52,6 @@ Create a simple calculator using the following:
 ### Contact
 Zemerelin Iris M. Membrere - _zemerelinmembrere@gmail.com_
 
-**Project Link :** https://github.com/zem464/Simple-Calculator.git
+**Output Link :** https://drive.google.com/file/d/1SevPZBUNIPYBCKPx_zA3Iq5XoWxPM_9b/view?usp=drive_link
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
