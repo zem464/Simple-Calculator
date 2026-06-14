@@ -11,4 +11,4 @@ if __name__ == "__main__":
     ctk.set_default_color_theme("blue")  # Themes: "blue" (standard), "green", "dark-blue"
 
     # Run app
-    app.mainloop()
+    app.mainloop() 
