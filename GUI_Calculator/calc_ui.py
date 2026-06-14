@@ -63,9 +63,22 @@ class CalculatorGUI(ctk.CTk):
             self.update_display(self.full_equation)
 
         elif char in '+-*/':        # Valid characters for operators
-            # Save the first number and the operator
             if self.current_input:
-                self.first_number = float(self.current_input)
+                
+                # Check if we are chaining operations (a first number and operator already exist)
+                if self.first_number is not None and self.operator:
+                    # Calculate the intermediate result behind the scenes
+                    second_number = float(self.current_input)
+                    intermediate_result = self.engine.process_calculation(
+                        self.first_number, second_number, self.operator
+                    )
+                    # The intermediate result becomes the new first number
+                    self.first_number = intermediate_result
+                else:
+                    # This is the first operator pressed in the equation
+                    self.first_number = float(self.current_input)
+                
+                # Save the new operator and update the display
                 self.operator = char
                 self.full_equation += f" {char} "
                 self.current_input = ""
