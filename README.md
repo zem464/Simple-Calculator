@@ -1,6 +1,5 @@
-```markdown
-## About the Project
-**SIMPLE CALCULATOR**
+## SIMPLE CALCULATOR
+**About the Project**
 
 Create a simple calculator using the following:
 
