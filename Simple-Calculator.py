@@ -17,6 +17,11 @@ print("=========================================================================
 print("\033[33m**Note that this calculator can only except at least 3 inputs.\n")
 num = input("\033[34m\033[1mHow many numbers will you input?: \033[37m\033[0m")
 
+# Check the input and ask again when the input is not in the choices
+while num not in ('2', '3'):
+    print("\033[31m\033[1mInvalid input. Please enter either '2' or '3'.\033[0m")
+    num = input("\033[34m\033[1mHow many numbers will you input?: \033[37m\033[0m")
+
 # For 2 inputs
 if num == '2':
     # Show operations

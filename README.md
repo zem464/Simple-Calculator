@@ -1,10 +1,3 @@
-# Simple-Calculator
-**Built for :** Subject assignment for Object Oriented Programming.
-
-  **Submitted to :** Prof. Danilo Madrigalejos 
-  
-  **A.Y :** 2022-2023
-
 ## About the Project
 **SIMPLE CALCULATOR**
 
@@ -48,10 +41,5 @@ Create a simple calculator using the following:
 3. Put the numbers that are to be calculated. Press enter and you will get the answer right away.
 
 4. Put whether you are going to calculate more or not. If there are none put 'n', or else put anything to continue computing.
-
-### Contact
-Zemerelin Iris M. Membrere - _zemerelinmembrere@gmail.com_
-
-**Output Link :** https://drive.google.com/file/d/1SevPZBUNIPYBCKPx_zA3Iq5XoWxPM_9b/view?usp=drive_link
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
