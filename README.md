@@ -54,7 +54,7 @@ SIMPLE-CALCULATOR/
 To use the Object-Oriented, Graphical User Interface version of the calculator, clone the main repository and navigate to the GUI folder:
 
 ```bash
-git clone [https://github.com/YourUsername/SIMPLE-CALCULATOR.git](https://github.com/YourUsername/SIMPLE-CALCULATOR.git)
+git clone [https://github.com/zem464/SIMPLE-CALCULATOR.git](https://github.com/zem464/SIMPLE-CALCULATOR.git)
 cd SIMPLE-CALCULATOR/GUI_Calculator
 
 ```
@@ -66,11 +66,9 @@ cd SIMPLE-CALCULATOR/GUI_Calculator
 If you specifically want the earlier, command-line only version of this project located on the `Simple-Ver` branch, open your terminal and run the following command:
 
 ```bash
-git clone -b Simple-Ver [https://github.com/YourUsername/SIMPLE-CALCULATOR.git](https://github.com/YourUsername/SIMPLE-CALCULATOR.git)
+git clone -b Simple-Ver [https://github.com/zem464/SIMPLE-CALCULATOR.git](https://github.com/zem464/SIMPLE-CALCULATOR.git)
 
 ```
-
-*(Make sure to replace `YourUsername` with your actual GitHub username!)*
 
 ## Usage
 
